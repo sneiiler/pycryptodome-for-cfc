@@ -1,7 +1,3 @@
-# python-utilities
-## Funções utilitárias em python
-- Base62: Usada para geração de encurtadores
-- Crypto: Criptodome para AWS Lambda (Python 3.6 on Linux e 3.7 on Win)
-- Filetype: Descobre a extensão e mimetype pelo header do arquivo
-- Mimetypes: Descobre o mimetype pela extensão
-- detectBrand: Detecta a bandeira de um cartão (bin code) pelos 6 números iniciais
+# 说明
+这个是用在百度云计算函数（[CFC](https://cloud.baidu.com/product-price/cfc.html)）上面的 `pycrptodome` 包
+- Crypto: 修改版本的 `pycrptodome` ，增加了若干运行环境中没有，但是加密所需的 `.so` 文件
